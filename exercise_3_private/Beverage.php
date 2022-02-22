@@ -23,15 +23,18 @@ class Beverage {
     private string $temperature;
     
     //TODO: Create the properties color (string), price (float) and temperature (string) and also foresee a construct.
-    private function __construct(string $color, float $price, string $temperature ='cold'){
+    public function __construct(string $color, float $price, string $temperature ='cold'){
         $this ->color = $color;
         $this ->price = $price;
         $this ->temperature = $temperature;
     }
     //TODO: Make a getInfo function which returns "This beverage is <temperature> and <color>."
-    private function getInfo() {
+    public function getInfo() {
 
         echo "this beverage is {$this->temperature} and  {$this->color} <br>";
     
+    }
+    public function getColor(){
+        return $this->color;
     }
 }

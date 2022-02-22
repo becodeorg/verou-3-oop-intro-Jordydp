@@ -29,7 +29,7 @@ class Beer extends Beverage
     {
         //using
         parent :: __construct($color,$price, $temprature);
-        $this ->name = $name;
+        $this ->name = ucfirst($name);
         $this ->alcoholpercentage = $alcoholpercentage;
     }
     //Make a getAlcoholpercentage function which returns the alocoholpercentage.

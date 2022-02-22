@@ -47,5 +47,5 @@ $duvel->getAlcoholpercentage();
 echo "{$duvel->alcoholpercentage}";
 $duvel ->getInfo();
 echo "<br> {$duvel->color}";
-
-Beverage::getAlcoholpercentage();
+//Try to get this error on the screen= Fatal error: Uncaught Error: Call to undefined method Beverage::getAlcoholpercentage() in /var/www/becode/workshop/exercise2.php on line 64
+// i try Beverage::getAlcoholpercentage();

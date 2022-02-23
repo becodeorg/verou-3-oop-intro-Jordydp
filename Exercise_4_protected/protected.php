@@ -29,7 +29,7 @@ class Beer extends Beverage
 
         echo "<br> The alcoholpercentage is {$this->alcoholpercentage}%.<br>";
     }
-    public function getColor(){
+    public function getColor() {
         return $this->color;
     }
 }
